@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
                   _controller.text=state.notes[index];
                   showDialog(
                       context: context,
-                      builder: (_) {git
+                      builder: (_) {
                         return Dialog( insetPadding: EdgeInsets.all(16),
                           child: Padding(
                             padding: const EdgeInsets.all(24.0),
